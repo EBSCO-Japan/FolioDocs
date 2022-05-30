@@ -710,7 +710,7 @@ To search for order lines based on their receipt due date, follow these steps:
 
 2. In the **PO Line details** pane, click **Actions > Receive.** The order line opens in the Receiving app.
 
-3. Follow the steps as outlined in the [Receiving app documentation]("/Receiving.md").
+3. Follow the steps as outlined in the [Receiving app documentation](/Acquisitions/Receiving.md).
 
 
 ## 発注明細の削除
