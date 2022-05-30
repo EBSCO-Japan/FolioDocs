@@ -1,0 +1,748 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>受入（Receiving） · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Organizations.html" />
+    
+    
+    <link rel="prev" href="Invoices.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Glossary/">
+            
+                <a href="../Glossary/">
+            
+                    
+                    用語集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    収集（Acquisitions）
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="Finance.html">
+            
+                <a href="Finance.html">
+            
+                    
+                    財務（Finance）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="Orders.html">
+            
+                <a href="Orders.html">
+            
+                    
+                    発注（Orders）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="Invoices.html">
+            
+                <a href="Invoices.html">
+            
+                    
+                    請求（Invoice）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.4" data-path="Receiving.html">
+            
+                <a href="Receiving.html">
+            
+                    
+                    受入（Receiving）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="Organizations.html">
+            
+                <a href="Organizations.html">
+            
+                    
+                    組織（Organization）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    ERM
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Reporting/">
+            
+                <a href="../Reporting/">
+            
+                    
+                    レポーティング
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    設定
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../Settings/Settings_acquisition_units.html">
+            
+                <a href="../Settings/Settings_acquisition_units.html">
+            
+                    
+                    調達ユニット
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../Settings/Settings_finance.html">
+            
+                <a href="../Settings/Settings_finance.html">
+            
+                    
+                    財務（Finance）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../Settings/Settings_orders.html">
+            
+                <a href="../Settings/Settings_orders.html">
+            
+                    
+                    発注（Orders）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../Settings/Settings_invoices.html">
+            
+                <a href="../Settings/Settings_invoices.html">
+            
+                    
+                    請求（Invoice）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../Settings/Settings_organizations.html">
+            
+                <a href="../Settings/Settings_organizations.html">
+            
+                    
+                    組織（Organization）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >受入（Receiving）</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <hr>
+<p>title: &quot;Receiving&quot;
+linkTitle: &quot;Receiving&quot;
+date: 2021-05-14
+weight: 50</p>
+<h2 id="tags-parenttopic">tags: [&quot;parenttopic&quot;]</h2>
+<p>&#x300C;&#x53D7;&#x5165;&#x300D;&#x30A2;&#x30D7;&#x30EA;&#x3092;&#x4F7F;&#x3046;&#x3068;&#x3001;&#x300C;&#x767A;&#x6CE8;&#x300D;&#x30A2;&#x30D7;&#x30EA;&#x3067;&#x4F5C;&#x6210;&#x3057;&#x305F;&#x767A;&#x6CE8;&#x660E;&#x7D30;&#x3092;&#x56F3;&#x66F8;&#x9928;&#x304C;&#x53D7;&#x5165;&#x305F;&#x3053;&#x3068;&#x3092;&#x793A;&#x3059;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x53D7;&#x5165;&#x30A2;&#x30D7;&#x30EA;&#x306B;&#x95A2;&#x3059;&#x308B;&#x7528;&#x8A9E;&#x306E;&#x5B9A;&#x7FA9;&#x3067;&#x3059;&#x3002;</p>
+<ul>
+<li><strong>&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8;&#x3002;</strong> &#x8907;&#x6570;&#x306E;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x306E;&#x53D6;&#x5F97;&#x3092;&#x8868;&#x3059;&#x767A;&#x6CE8;&#x3067;&#x3059;&#x3002;</li>
+<li><strong>&#x30D4;&#x30FC;&#x30B9;&#x3002;</strong>  &#x53D7;&#x5165;&#x308B;&#x3053;&#x3068;&#x304C;&#x4E88;&#x60F3;&#x3055;&#x308C;&#x308B;&#x53D7;&#x5165;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x306E;&#x30B5;&#x30D6;&#x30BB;&#x30AF;&#x30B7;&#x30E7;&#x30F3;&#x3002;&#x4F8B;&#x3048;&#x3070;&#x3001;&#x6CE8;&#x6587;&#x3055;&#x308C;&#x305F;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x304C;&#x96D1;&#x8A8C;&#x306E;&#x30B5;&#x30D6;&#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x3067;&#x3042;&#x308B;&#x5834;&#x5408;&#x3001;&#x305D;&#x306E;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x306E;&#x300C;&#x30D4;&#x30FC;&#x30B9;&#x300D;&#x306F;&#x96D1;&#x8A8C;&#x306E;&#x7B2C;1&#x5DFB;&#x3068;&#x306A;&#x308B;&#x53EF;&#x80FD;&#x6027;&#x304C;&#x3042;&#x308B;&#x3002;</li>
+<li><strong>&#x53D7;&#x5165;&#x3002;</strong> &#x6CE8;&#x6587;&#x54C1;&#x304C;&#x56F3;&#x66F8;&#x9928;&#x306B;&#x5C4A;&#x3044;&#x305F;&#x3053;&#x3068;&#x3092;&#x78BA;&#x8A8D;&#x3059;&#x308B;&#x3053;&#x3068;&#x3002;</li>
+<li><strong>&#x53D7;&#x5165;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3002;</strong> &#x767A;&#x6CE8;&#x3057;&#x305F;&#x8CC7;&#x6599;&#x306E;&#x540D;&#x79F0;&#x3002;&#x3053;&#x308C;&#x306B;&#x306F;1&#x3064;&#x307E;&#x305F;&#x306F;&#x8907;&#x6570;&#x306E;&#x30D4;&#x30FC;&#x30B9;&#x304C;&#x4ED8;&#x5C5E;&#x3057;&#x3066;&#x3044;&#x308B;&#x5834;&#x5408;&#x304C;&#x3042;&#x308B;&#x3002;</li>
+<li><strong>&#x672A;&#x53D7;&#x5165;&#xFF08;Unreceive&#xFF09;&#x3002;</strong> &#x4EE5;&#x524D;&#x300C;&#x53D7;&#x5165;&#x6E08;&#x300D;&#x3068;&#x8868;&#x793A;&#x3055;&#x308C;&#x305F;&#x6CE8;&#x6587;&#x304C;&#x3001;&#x56F3;&#x66F8;&#x9928;&#x306B;&#x5C4A;&#x3044;&#x3066;&#x3044;&#x306A;&#x304B;&#x3063;&#x305F;&#x3053;&#x3068;&#x3092;&#x793A;&#x3059;&#x3053;&#x3068;&#x3002;</li>
+</ul>
+<h2 id="permissions">Permissions</h2>
+<p>The permissions listed below allow you to interact with the Receiving app and determine what you can or cannot do within the app. You can assign permissions to users in the Users app. If none of these permissions are assigned to a user, they are unable to see the Receiving app or any related information.</p>
+<ul>
+<li><strong>Receiving: View.</strong> This permission allows the user to view receiving information for orders.</li>
+<li><strong>Receiving: View, edit.</strong> This permission allows the user to receive and edit pieces that are associated with a purchase order line.</li>
+<li><strong>Receiving: View, edit, create.</strong> This permission allows the user to view, edit, and create piece records. Note: Users can only create pieces if the related purchase order line has the <a href="%22/orders.md#po-line-details%22">Manually add pieces for receiving</a> checkbox selected.</li>
+<li><strong>Receiving: View, edit, delete.</strong> This permission allows the user to view, edit and delete pieces in the Receiving app.</li>
+<li><strong>Settings (Receiving): Can view and edit settings.</strong> This permission allows the user to manage receiving settings.</li>
+</ul>
+<h2 id="&#x53D7;&#x5165;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x306E;&#x4F5C;&#x6210;">&#x53D7;&#x5165;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x306E;&#x4F5C;&#x6210;</h2>
+<p>&#x901A;&#x5E38;&#x3001;&#x3042;&#x308B;&#x6CE8;&#x6587;&#x306F;&#x53D7;&#x5165;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3067;&#x69CB;&#x6210;&#x3055;&#x308C;&#x3001;1&#x3064;&#x307E;&#x305F;&#x306F;&#x8907;&#x6570;&#x306E;&#x30D4;&#x30FC;&#x30B9;&#x304C;&#x542B;&#x307E;&#x308C;&#x308B;&#x5834;&#x5408;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;&#x4F8B;&#x3048;&#x3070;&#x3001;&#x96D1;&#x8A8C;&#x3092;&#x6CE8;&#x6587;&#x3059;&#x308B;&#x5834;&#x5408;&#x3001;&#x53D7;&#x5165;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x306F;&#x96D1;&#x8A8C;&#x540D;&#x3068;&#x306A;&#x308A;&#x3001;&#x6DFB;&#x4ED8;&#x3055;&#x308C;&#x308B;&#x30D4;&#x30FC;&#x30B9;&#x306B;&#x306F;&#x96D1;&#x8A8C;&#x306E;&#x5404;&#x53F7;&#x304C;&#x542B;&#x307E;&#x308C;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x767A;&#x6CE8;&#x660E;&#x7D30;&#x306F;&#x3001;&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8;&#x3092;&#x8868;&#x3059;&#x305F;&#x3081;&#x306B;&#x3082;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8;&#x306E;&#x767A;&#x6CE8;&#x660E;&#x7D30;&#x306F;&#x3001;1&#x3064;&#x306E;&#x767A;&#x6CE8;&#x660E;&#x7D30;&#x3068;&#x3057;&#x3066;&#x767A;&#x6CE8;&#x30A2;&#x30D7;&#x30EA;&#x3067;&#x4F5C;&#x6210;&#x3055;&#x308C;&#x307E;&#x3059;&#x304C;&#x3001;&#x8907;&#x6570;&#x306E;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x306E;&#x53D6;&#x5F97;&#x3092;&#x8868;&#x3059;&#x305F;&#x3081;&#xFF08;&#x4F8B;&#x3048;&#x3070;&#x3001;&#x30E2;&#x30CE;&#x30B0;&#x30E9;&#x30D5;&#x306E;&#x7D99;&#x7D9A;&#x6CE8;&#x6587;&#xFF09;&#x3001;&#x53D7;&#x5165;&#x30A2;&#x30D7;&#x30EA;&#x3067;&#x5834;&#x6240;&#x3092;&#x7279;&#x5B9A;&#x3057;&#x305F;&#x308A;&#x3001;&#x53D7;&#x5165;&#x3092;&#x884C;&#x3046;&#x3053;&#x3068;&#x306F;&#x3067;&#x304D;&#x307E;&#x305B;&#x3093;&#x3002;&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8;&#x306B;&#x542B;&#x307E;&#x308C;&#x308B;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3092;&#x53D7;&#x3051;&#x5165;&#x308C;&#x308B;&#x306B;&#x306F;&#x3001;&#x53D7;&#x5165;&#x30A2;&#x30D7;&#x30EA;&#x3067;&#x53D7;&#x5165;&#x7528;&#x306E;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3092;&#x4F5C;&#x6210;&#x3057;&#x3001;&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8;POL&#x306B;&#x30EA;&#x30F3;&#x30AF;&#x3055;&#x305B;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;&#x672C;&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;&#x306E;FOLIO&#x3067;&#x306F;&#x3001;&#x53D7;&#x5165;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x306F;&#x3001;Inventory&#x30A2;&#x30D7;&#x30EA;&#x306E;&#x30A4;&#x30F3;&#x30B9;&#x30BF;&#x30F3;&#x30B9;&#x3068;POL&#x306B;&#x63A5;&#x7D9A;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x300C;&#x65B0;&#x898F;&#x4F5C;&#x6210;&#x300D;&#x6A5F;&#x80FD;&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x3068;&#x3001;&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8;&#x306B;&#x542B;&#x307E;&#x308C;&#x308B;&#x53D7;&#x5165;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3092;&#x56F3;&#x66F8;&#x9928;&#x3067;&#x53D7;&#x5165;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x306B;&#x4F5C;&#x6210;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x307E;&#x305F;&#x3001;&#x3053;&#x306E;&#x6A5F;&#x80FD;&#x3067;&#x306F;&#x3001;&#x30A4;&#x30F3;&#x30B9;&#x30BF;&#x30F3;&#x30B9;&#x3068;&#x6CE8;&#x6587;&#x306E;&#x95A2;&#x4FC2;&#x3092;&#x4F5C;&#x6210;&#x3057;&#x305F;&#x3044;&#x5834;&#x5408;&#x3001;&#x65E2;&#x5B58;&#x306E;&#x30A4;&#x30F3;&#x30B9;&#x30BF;&#x30F3;&#x30B9;&#x3092;&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8;&#x306E;POL&#x306B;&#x30EA;&#x30F3;&#x30AF;&#x3055;&#x305B;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x3053;&#x306E;&#x5834;&#x5408;&#x3001;&#x53D7;&#x5165;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x306F;&#x305D;&#x306E;&#x95A2;&#x9023;&#x3059;&#x308B;POL&#x756A;&#x53F7;&#x3067;&#x691C;&#x7D22;&#x53EF;&#x80FD;&#x3067;&#x3059;&#x3002;</p>
+<ol>
+<li>Click <strong>New</strong>.</li>
+<li>In the <strong>New title</strong> window, in the <strong>PO line details</strong> section, click <strong>POL number look-up</strong>. </li>
+<li>In the <strong>Select order lines</strong> dialog, in the <strong>Search &amp; filter</strong> box, enter the Package POL number.</li>
+<li>Optional: Filter results using the filters in the <strong>Select order lines</strong> dialog.</li>
+<li>Click <strong>Search</strong> and select the Package from the Search results. The Package POL is linked to the new title. </li>
+<li>Enter a <strong>Title</strong> for the item in the Package. </li>
+<li>Fill in the rest of the fields under Item details and PO line details. For more information on the fields and actions available in these sections, see the section descriptions below.</li>
+<li>Click <strong>Save &amp; close</strong>. A confirmation message appears, and the new receiving title is created and appears in the Receiving pane. It can now be edited, expected pieces can be added to it, and it can be received. You can locate the title by searching for the PO or POL number, the Package Name, or the Title(s) within it. </li>
+</ol>
+<h3 id="item-details">Item details</h3>
+<ul>
+<li><strong>&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3002;</strong> &#x53D7;&#x5165;&#x8CC7;&#x6599;&#x306E;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3067;&#x3059;&#x3002;&#x6CE8;&#xFF1A;&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8;&#x4EE5;&#x5916;&#x306E;POL&#x306E;&#x5834;&#x5408;&#x3001;&#x53D7;&#x5165;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x306F;&#x81EA;&#x52D5;&#x7684;&#x306B;&#x4F5C;&#x6210;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8; POL &#x306E;&#x5834;&#x5408;&#x306F;&#x3001;&#x30EB;&#x30C3;&#x30AF;&#x30A2;&#x30C3;&#x30D7;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x30A4;&#x30F3;&#x30D9;&#x30F3;&#x30C8;&#x30EA;&#x30A4;&#x30F3;&#x30B9;&#x30BF;&#x30F3;&#x30B9;&#x3092;&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8; POL &#x306B;&#x30EA;&#x30F3;&#x30AF;&#x3057;&#x3001;&#x53D7;&#x5165;&#x30BF;&#x30A4;&#x30C8;&#x30EB;&#x3092;&#x6B63;&#x5E38;&#x306B;&#x8FFD;&#x52A0;&#x3057;&#x307E;&#x3059;&#x3002;</li>
+<li><strong>&#x51FA;&#x7248;&#x8005;&#x3002;</strong> &#x8CC7;&#x6599;&#x306E;&#x51FA;&#x7248;&#x8005;&#x3002;</li>
+<li><strong>&#x51FA;&#x7248;&#x65E5;&#x3002;</strong> &#x8CC7;&#x6599;&#x306E;&#x51FA;&#x7248;&#x65E5;&#x3002;</li>
+<li><strong>&#x7248;&#x3002;</strong> &#x8CC7;&#x6599;&#x306E;&#x7248;&#x3002;</li>
+<li><strong>&#x30B5;&#x30D6;&#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x958B;&#x59CB;&#x65E5;&#x3002;</strong> &#x30B5;&#x30D6;&#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x306E;&#x958B;&#x59CB;&#x65E5;&#xFF08;&#x8A72;&#x5F53;&#x3059;&#x308B;&#x5834;&#x5408;&#xFF09;&#x3002;</li>
+<li><strong>&#x30B5;&#x30D6;&#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x7D42;&#x4E86;&#x65E5;&#x3002;</strong> &#x30B5;&#x30D6;&#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x306E;&#x7D42;&#x4E86;&#x65E5;&#xFF08;&#x8A72;&#x5F53;&#x3059;&#x308B;&#x5834;&#x5408;&#xFF09;&#x3002;</li>
+<li><strong>&#x30B5;&#x30D6;&#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x9593;&#x9694;&#xFF08;interval&#xFF09;&#x3002;</strong> &#x30B5;&#x30D6;&#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x306E;&#x7D99;&#x7D9A;&#x65E5;&#x6570;&#xFF08;&#x8A72;&#x5F53;&#x3059;&#x308B;&#x5834;&#x5408;&#xFF09;&#x3002;</li>
+<li><strong>&#x5BC4;&#x4E0E;&#x8005;&#x3002;</strong> &#x8CC7;&#x6599;&#x306E;&#x5BC4;&#x4E0E;&#x8005;&#x3002;</li>
+<li><strong>&#x88FD;&#x54C1;ID&#x3002;</strong> ISBN&#x3084;DOI&#x306A;&#x3069;&#x306E;&#x8B58;&#x5225;&#x756A;&#x53F7;&#x3002;</li>
+</ul>
+<h4 id="&#x5BC4;&#x4E0E;&#x8005;&#x306E;&#x8FFD;&#x52A0;">&#x5BC4;&#x4E0E;&#x8005;&#x306E;&#x8FFD;&#x52A0;</h4>
+<p>Note: Adding a contributor is optional, but if you click <strong>Add contributor</strong>, you must enter an <strong>Contributor</strong> and <strong>Contributor ID type</strong> or delete the contributor in order to save the title.</p>
+<ol>
+<li>Click <strong>Add contributor</strong>.</li>
+<li>Enter the <strong>Contributor</strong>.</li>
+<li>Select a <strong>Contributor ID type</strong> from the drop-down list. The Contributor is added once all changes are saved.</li>
+</ol>
+<h5 id="deleting-a-contributor">Deleting a contributor</h5>
+<ol>
+<li>Find the contributor you want to delete.</li>
+<li>Click the <strong>trash can icon</strong>. The contributor is removed and is deleted once the changes are saved.</li>
+</ol>
+<h5 id="adding-a-product-id-and-type">Adding a product ID and type</h5>
+<p>Note: Adding a product ID and type is optional, but if you click <strong>Add product ID and type</strong>, you must enter a <strong>Product ID</strong> and <strong>Product ID type</strong> or delete the product ID and type in order to save the title.</p>
+<ol>
+<li>Click <strong>Add product ID and type</strong>.</li>
+<li>Enter the <strong>Product ID</strong>.</li>
+<li>Optional: Enter a <strong>Qualifier</strong>. For example, you may want to add <em>paperback</em> as a Qualifier for an ISBN.</li>
+<li>Select the <strong>Product ID type</strong> from the drop-down list. The product ID is added once all changes are saved.</li>
+</ol>
+<h5 id="deleting-a-product-id-and-type">Deleting a product ID and type</h5>
+<ol>
+<li>Find the product ID you want to delete.</li>
+<li>Click the <strong>trash can icon</strong>. The product ID is removed and is deleted once the changes are saved.</li>
+</ol>
+<h4 id="po-line-details">PO line details</h4>
+<ul>
+<li><strong>POL number.</strong> The purchase order line number. This can only be populated by using the <strong>POL number look-up</strong>. See <a href="#creating-a-receiving-title">Creating a receiving title</a> for more information.</li>
+<li><strong>Expected receipt date.</strong> The date the material is expected to be received. This is automatically populated with information from Orders and cannot be modified.</li>
+<li><strong>Receiving note.</strong> Notes about receiving the material. This is automatically populated with information from Orders and cannot be modified. </li>
+<li><strong>Must acknowledge receiving note.</strong> When this checkbox is selected, the <strong>Receiving note</strong> dialog appears when you attempt to receive the material. You must click <strong>Continue</strong> in order to receive the material.</li>
+</ul>
+<h3 id="linking-an-existing-receiving-title">Linking an existing receiving title</h3>
+<ol>
+<li>Click <strong>New</strong>. </li>
+<li>In the <strong>New title</strong> window, click <strong>Title look-up</strong>.</li>
+<li>In the <strong>Select instance</strong> dialog, in the <strong>Search &amp; filter</strong> box, enter the title you want to link to the package.</li>
+<li>Optional: Filter the results using the filters in the <strong>Select instance</strong> dialog.</li>
+<li>Click <strong>Search</strong> and select the Title from the search results. This populates all of the fields that have already been filled out for the existing title.</li>
+<li>Fill in the rest of the fields under <strong>Item details</strong>. See <a href="#item-details">Item details</a> above for more information.</li>
+<li>Click <strong>POL number look-up</strong>. </li>
+<li>In the <strong>Select order lines</strong> dialog, in the <strong>Search &amp; filter</strong> box, enter the Package POL number. </li>
+<li>Optional: Filter the results using the filters in the <strong>Select order lines</strong> dialog.</li>
+<li>Click <strong>Search</strong> and select the Package from the search results. </li>
+<li>Click <strong>Save &amp; close</strong>. The existing title is now linked to the Package POL. It can be located by searching for its Title, original POL number, Package POL number, or Package name.</li>
+</ol>
+<h2 id="searching-for-a-receiving-title">Searching for a receiving title</h2>
+<p>You can search for orders in the <strong>Search &amp; filter</strong> pane. To search for orders, enter your search terms into the box. Select the <strong>Keyword</strong> drop-down list to search through one of the following fields:</p>
+<ul>
+<li><strong>Keyword.</strong> Searches through all fields in the drop-down list. This is the default search.</li>
+<li><strong>Title.</strong> Title of the ordered material.</li>
+<li><strong>Package.</strong> The name of the package to which a receiving title is attached.</li>
+<li><strong>Product ID.</strong> Identifying number, typically assigned in Orders when the order was created.</li>
+<li><strong>PO number.</strong> The purchase order number.</li>
+<li><strong>POL number.</strong> The purchase order line number.</li>
+</ul>
+<p>You can also search for orders by selecting any of the filters in the <strong>Search &amp; filter</strong> pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information.</p>
+<h3 id="order-status">Order status</h3>
+<p>In the <strong>Search &amp; filter</strong> pane, click <strong>Order status</strong> and select any applicable filters:</p>
+<ul>
+<li><strong>Closed.</strong> Orders that are closed.</li>
+<li><strong>Open.</strong> Orders that are open.</li>
+<li><strong>Pending.</strong> Orders that are pending.</li>
+</ul>
+<p>Only open orders can be received.</p>
+<h3 id="vendor">Vendor</h3>
+<p>To search for orders from a specific vendor, follow these steps:</p>
+<ol>
+<li>In the <strong>Search &amp; filter</strong> pane, click <strong>Vendor</strong>.</li>
+<li>Click <strong>Organization look-up</strong>.</li>
+<li>In the <strong>Select Organization</strong> dialog, search for the vendor.</li>
+<li>Select the vendor you want to filter by. The search results appear in the Receiving pane.</li>
+</ol>
+<h3 id="order-type">Order type</h3>
+<p>In the <strong>Search &amp; filter</strong> pane, click <strong>Order type</strong> and select any applicable filters:</p>
+<ul>
+<li><strong>One-time.</strong> One-time orders that are received within the year.</li>
+<li><strong>Ongoing.</strong> Ongoing orders that span multiple years.</li>
+</ul>
+<h3 id="material-type">Material type</h3>
+<p>To search for orders of a specific material type, follow these steps:</p>
+<ol>
+<li>In the <strong>Search &amp; filter</strong> pane, click <strong>Material type</strong>.</li>
+<li>Select the material type from the drop-down list. The search results appear in the Receiving pane. </li>
+</ol>
+<h3 id="order-format">Order format</h3>
+<p>In the <strong>Search &amp; filter</strong> pane, click <strong>Order format</strong> and select any applicable filters:</p>
+<ul>
+<li><strong>Electronic Resource.</strong> Order lines containing an electronic resource.</li>
+<li><strong>Physical Resource.</strong> Order lines containing a physical resource.</li>
+<li><strong>P/E Mix.</strong> Order lines containing a physical and electronic mixed resource.</li>
+<li><strong>Other.</strong> Order lines containing a different type of resource.</li>
+</ul>
+<h3 id="tags">Tags</h3>
+<p>To search for orders assigned specific tags, follow these steps:</p>
+<ol>
+<li>In the <strong>Search &amp; filter</strong> pane, click <strong>Tags</strong>.</li>
+<li>Select the tag(s) from the drop-down list. The search results appear in the Receiving pane.</li>
+</ol>
+<h3 id="location">Location</h3>
+<p>To search for orders assigned to a specific permanent location, follow these steps:</p>
+<ol>
+<li>In the <strong>Search &amp; filter</strong> pane, click <strong>Location</strong>.</li>
+<li>Click <strong>Location look-up</strong>.</li>
+<li>In the <strong>Select permanent location</strong> dialog, select an <strong>Institution</strong>, <strong>Campus</strong>, <strong>Library</strong>, and <strong>Location</strong> using the drop-down lists.</li>
+<li>Click <strong>Save and close</strong>. The search results appear in the Receiving pane.</li>
+</ol>
+<h3 id="receiving-status">Receiving status</h3>
+<p>In the <strong>Search &amp; filter</strong> pane, click <strong>Receiving status</strong> and select any applicable filters:</p>
+<ul>
+<li><strong>Expected.</strong> The order is expected to arrive.</li>
+<li><strong>Received.</strong> The order has arrived and been received. </li>
+</ul>
+<h3 id="acquisition-units">Acquisition units</h3>
+<p>To search for orders assigned to a specific acquisition unit, follow these steps:</p>
+<ol>
+<li>In the <strong>Search &amp; filter</strong> pane, click <strong>Acquisition units</strong>.</li>
+<li>Select the acquisition unit(s) from the drop-down list. The search results appear in the Receiving pane. </li>
+</ol>
+<p>To clear all filters, go to the <strong>Search &amp; filter</strong> pane and click <strong>Reset all</strong>.</p>
+<h2 id="viewing-receiving-titles-details">Viewing receiving titles details</h2>
+<p>Receiving title details can be viewed by any user with the <a href="#permissions">Receiving: View permission</a>. </p>
+<h3 id="search-results">Search results</h3>
+<p>Once you search for a receiving title, the following information appears in the Receiving pane:</p>
+<ul>
+<li><strong>Title.</strong> The title of the material to be received.</li>
+<li><strong>Expected receipt date.</strong> The date the material is expected to be received.</li>
+<li><strong>Package.</strong> The name of the package the receiving title is associated with (if applicable).</li>
+<li><strong>POL number.</strong> The purchase order line number.</li>
+<li><strong>Receiving note.</strong> Notes about receiving the material.</li>
+<li><strong>Locations.</strong> The location(s) to which the order is assigned.</li>
+<li><strong>Order status.</strong> The status of the order, either open, closed, or pending.</li>
+</ul>
+<p>In the search results, click on a receiving title to view it. The receiving title pane displays with additional information about the title.</p>
+<h3 id="title-information">Title information</h3>
+<p>This section displays the material details defined under <a href="#creating-a-receiving-title">Creating a receiving title</a>. </p>
+<h3 id="pol-details">POL details</h3>
+<p>This section displays the details of the purchase order lines.</p>
+<ul>
+<li><strong>POL number.</strong> The purchase order line number.</li>
+<li><strong>Expected receipt date.</strong> The date the piece is expected to be received.</li>
+<li><strong>Receiving note.</strong> Notes about receiving the material.</li>
+<li><strong>Order type.</strong> The type of order, either one-time or ongoing.</li>
+<li><strong>Vendor.</strong> The institution from which the material was purchased. </li>
+<li><strong>Material supplier.</strong> The supplier of the material.</li>
+</ul>
+<h3 id="expected">Expected</h3>
+<p>This section displays the pieces of the order that are still expected to be received. See <a href="#adding-an-expected-piece">Adding an expected piece</a> for more information.</p>
+<h3 id="received">Received</h3>
+<p>This section displays the pieces of the order that have been received. See <a href="#receiving-an-order">Receiving an order</a> for more information.</p>
+<h2 id="editing-receiving-title-information">Editing receiving title information</h2>
+<ol>
+<li>Find the receiving title you want to edit and select it.</li>
+<li>In the receiving title pane, click <strong>Edit</strong>.</li>
+<li>In the receiving title window, you can modify <a href="#item-details">Item details</a> and <a href="#po-line-details">PO line details</a>. Note: The <strong>Title look-up</strong> and <strong>POL number look-up</strong> functions are different in editing mode. See details below.</li>
+<li>Fill out the desired fields.</li>
+<li>Click <strong>Save &amp; close.</strong> A confirmation message appears and the receiving title is updated.</li>
+</ol>
+<h3 id="title-look-up">Title look-up</h3>
+<p>The <strong>Title look-up</strong> function replaces the current title with a title that already exists as an instance in Inventory. This doesn&apos;t replace existing publishing or subscription details, but it does add any contributors or product IDs associated with the new title. Once you make this change, the material is longer be searchable by the original title.</p>
+<ol>
+<li>Click <strong>Title look-up</strong>. </li>
+<li>In the <strong>Select instance</strong> dialog, in the <strong>Search &amp; filter</strong> box, enter part or all of the title.</li>
+<li>Optional: Filter your results using the filters in the <strong>Select instance</strong> dialog.</li>
+<li>Click <strong>Search</strong> and select the title from your search results. The title updates once all changes are saved.</li>
+</ol>
+<h3 id="pol-number-look-up">POL number look-up</h3>
+<p>The <strong>POL number look-up</strong> function replaces the current POL number with a POL number that already exists in Inventory. This doesn&apos;t replace any item details, only the POL number. Once you make this change, the material is no longer be searchable by the original POL number.</p>
+<ol>
+<li>Click <strong>POL number look-up</strong>.</li>
+<li>In the <strong>Select order lines</strong> dialog, in the <strong>Search &amp; filter</strong> box, enter the POL number.</li>
+<li>Optional: Filter your results using the filters in the <strong>Select order lines</strong> dialog.</li>
+<li>Click <strong>Search</strong> and select the POL number from your search results. The POL number updates once all changes are saved.</li>
+</ol>
+<h2 id="adding-an-expected-piece">Adding an expected piece</h2>
+<p>An expected piece is a part of an order you expect to receive. For example, if you order a magazine subscription, you might expect to receive 12 different pieces during the year. If you order a book that comes with supplemental materials such as a CD or map, you might expect to receive multiple pieces with the order. The order does not initially display each piece that comes with it. Adding expected pieces to an order allows you to track which pieces of the order have been received and which are still expected. </p>
+<p>Expected pieces can be found under the Expected section of an order. Expected pieces can also be received from this section. See <a href="#quick-receive">Quick receive</a> for more information.</p>
+<p>Note: To add an expected piece to an order, the <strong>Manually add pieces for receiving</strong> checkbox must have been selected in the <a href="%22/orders.md#po-line-details%22">Order line</a> when the order was created.</p>
+<ol>
+<li>Find the receiving title to which you want to add a piece and select it.</li>
+<li>In the <strong>Expected</strong> section, click <strong>Add piece</strong>.</li>
+<li>In the <strong>Add piece</strong> dialog, fill out desired fields. See below for more information.</li>
+<li>Click <strong>Save &amp; close</strong>. The new piece is displayed under the Expected section.</li>
+</ol>
+<h3 id="add-piece-fields">Add piece fields</h3>
+<ul>
+<li><strong>Caption.</strong> Enter a caption for the piece. </li>
+<li><strong>Expected receipt date.</strong> The date the piece is expected to be received.</li>
+<li><strong>Select location.</strong> This field is populated with the location selected in Orders. You can change the location by clicking <a href="#assign-a-different-location">Assign a different location</a>. </li>
+<li><strong>Piece format.</strong> This field is populated with the format selected in Orders. It can not be modified. </li>
+<li><strong>Comment.</strong> Enter any comments about the piece.</li>
+<li><strong>Create item.</strong> Selecting the <strong>Create item</strong> checkbox connects the new piece to an instance in Inventory. This option is not available for electronic resources. Note: In order to create an item, an <a href="%22/settings_orders.md#settings--orders--instance-status%22">instance status</a>, <a href="%22/settings_orders.md#settings--orders--instance-type%22">instance type</a>, and <a href="%22/settings_orders.md#settings--orders--loan-type%22">loan type</a> must be selected in Settings.</li>
+<li><strong>Supplement.</strong> Selecting the <strong>Supplement</strong> checkbox indicates that the piece is a supplementary material such as a CD or a map. </li>
+</ul>
+<h4 id="assign-a-different-location">Assign a different location</h4>
+<p>Note: When the system is told to create a holding, a holding is created for the chosen location. If the location is changed for a specific piece and no holding exists for that location already, a new holding is created.</p>
+<ol>
+<li>In the <strong>Add piece</strong> dialog, click <strong>Assign a different location</strong>. </li>
+<li>In the <strong>Select permanent location</strong> dialog, select an <strong>Institution</strong>, <strong>Campus</strong>, <strong>Library</strong>, and <strong>Location</strong>.</li>
+<li>Click <strong>Save and close</strong>. The changes appear in the <strong>Select location</strong> field of the <strong>Add piece</strong> dialog. The location is confirmed once the piece is saved. </li>
+</ol>
+<h2 id="editing-an-expected-or-received-piece">Editing an expected or received piece</h2>
+<p>To edit an expected or received piece, make sure the correct receiving title is displayed by using the <strong>Search &amp; filter</strong> pane and look under the Expected and Received sections of the title.</p>
+<h3 id="editing-an-expected-piece">Editing an expected piece</h3>
+<ol>
+<li>Select the piece you want to edit.</li>
+<li>In the <strong>Edit piece</strong> dialog, the same fields as the <a href="#adding-an-expected-piece">Add piece</a> dialog appear. See above for more information.</li>
+<li>Fill out the desired fields.</li>
+<li>Click <strong>Save &amp; close.</strong> A confirmation message appears and the piece is updated.</li>
+</ol>
+<h3 id="editing-a-received-piece">Editing a received piece</h3>
+<ol>
+<li>Select the piece you want to edit. </li>
+<li>In the <strong>Edit piece</strong> dialog, the same fields as the <strong>Add piece</strong> dialog appear. See above for more information. Note: You cannot make changes to <strong>Location</strong>, <strong>Piece format</strong>, or <strong>Create item</strong> when editing a received piece. If the <strong>Create item</strong> checkbox was selected, it says <strong>Connected</strong> in place of <strong>Create item</strong>. If the checkbox was cleared, it still displays the <strong>Create item</strong> box, but the checkbox will be grayed out.</li>
+<li>Fill out the desired fields.</li>
+<li>Click <strong>Save &amp; close</strong>. A confirmation message appears and the piece is updated.</li>
+</ol>
+<h2 id="receiving-an-order">Receiving an order</h2>
+<p>Receiving an order confirms that it has arrived at the library.</p>
+<p>There are two ways to receive an order:</p>
+<ul>
+<li>Quick Receive</li>
+<li>Receive</li>
+</ul>
+<h3 id="quick-receive">Quick receive</h3>
+<p>Quick receive can be used when you want to receive one piece of an order at a time.</p>
+<ol>
+<li>Using the <strong>Search &amp; filter</strong> pane, find the receiving title from which you want to receive pieces and select it.</li>
+<li>In the Expected section of the order, click on the piece you want to receive. </li>
+<li>In the <strong>Edit piece</strong> dialog, make any necessary edits to the piece.</li>
+<li>Click <strong>Quick receive</strong>. The piece is now displayed under the Received section. </li>
+</ol>
+<h3 id="receive">Receive</h3>
+<p>The Receive function can be used to receive multiple pieces at once. </p>
+<ol>
+<li>Using the <strong>Search &amp; filter</strong> pane, find the receiving title you want to receive and select it.</li>
+<li>In the Expected section of the receiving title, click <strong>Receive</strong>.</li>
+<li>In the receiving title window, all of the expected pieces are displayed. Here, you can make changes to the pieces. See below for more information.</li>
+<li>Select the checkbox beside each piece you want to receive. Note: If you want to receive all of the pieces, click the top checkbox.</li>
+<li>Click <strong>Receive</strong>. The selected pieces are now displayed under the Received section.</li>
+</ol>
+<h4 id="receive-fields">Receive fields</h4>
+<ul>
+<li><strong>Caption.</strong> Create or change the caption of the piece. </li>
+<li><strong>Barcode.</strong> Create a barcode for the piece. You can only add a barcode if the piece is already <strong>Connected</strong> to an instance in Inventory, or if the <strong>Create item</strong> checkbox is selected.</li>
+<li><strong>Piece format.</strong> This field is populated by the format selected in Orders. It can not be modified. </li>
+<li><strong>Request.</strong> This field is populated with information from Requests. If there is a request open for the piece, this field says &#x201C;Yes&#x201D;. </li>
+<li><strong>Comment.</strong> Enter any comments about the piece.</li>
+<li><strong>Select location.</strong> This field is populated with the location selected in Orders. You can change the location by clicking <a href="#assign-a-different-location">Assign a different location</a>.</li>
+<li><strong>Item status.</strong> This field is populated with the information that will appear in Inventory if the item is received. </li>
+<li><strong>Call number.</strong> Enter the call number for the piece. You can only add a call number if the piece is already <strong>Connected</strong> to an instance in Inventory, or if the <strong>Create item</strong> checkbox is selected.</li>
+<li><strong>Create item.</strong> Selecting the <strong>Create item</strong> checkbox links the new piece to an instance in Inventory. This option is not available for electronic resources. Note: In order to create an item, a loan type must be selected in Settings.</li>
+</ul>
+<h2 id="unreceiving-an-order">Unreceiving an order</h2>
+<ol>
+<li>In the Received section of the receiving title, click <strong>Unreceive</strong>.</li>
+<li>In the receiving title window, all of the received pieces are displayed. </li>
+<li>Optional: Make changes to the <strong>Comment</strong> field.</li>
+<li>Select the checkbox beside each piece you want to unreceive. Note: If you want to unreceive all of the received pieces, select the top checkbox.</li>
+<li>Click <strong>Unreceive</strong>. The selected pieces are now displayed under the Expected section. </li>
+</ol>
+<p>You can also get to the Receiving app from the action menu of an open order by clicking <strong>Receive</strong>.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Invoices.html" class="navigation navigation-prev " aria-label="Previous page: 請求（Invoice）">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Organizations.html" class="navigation navigation-next " aria-label="Next page: 組織（Organization）">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"受入（Receiving）","level":"1.3.4","depth":2,"next":{"title":"組織（Organization）","level":"1.3.5","depth":2,"path":"Acquisitions/Organizations.md","ref":"./Acquisitions/Organizations.md","articles":[]},"previous":{"title":"請求（Invoice）","level":"1.3.3","depth":2,"path":"Acquisitions/Invoices.md","ref":"./Acquisitions/Invoices.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Acquisitions/Receiving.md","mtime":"2022-05-30T06:39:35.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-05-30T07:03:10.283Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
