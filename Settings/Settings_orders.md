@@ -102,7 +102,7 @@ Note: Template name is the only required field.
 
 1. Click **New**.
 
-2. Fill in the fields. Follow the instructions under [Creating an order]({{< ref "/orders.md#creating-an-order" >}}) for more information.
+2. Fill in the fields. Follow the instructions under [Creating an order]("/orders.md#creating-an-order") for more information.
 
 3. Click **Save**. A confirmation message appears and the template is saved.
 
