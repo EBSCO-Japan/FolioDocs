@@ -341,7 +341,7 @@ An expected piece is a part of an order you expect to receive. For example, if y
 
 Expected pieces can be found under the Expected section of an order. Expected pieces can also be received from this section. See [Quick receive](#quick-receive) for more information.
 
-Note: To add an expected piece to an order, the **Manually add pieces for receiving** checkbox must have been selected in the [Order line]("/orders.md#po-line-details") when the order was created.
+Note: To add an expected piece to an order, the **Manually add pieces for receiving** checkbox must have been selected in the [Order line](./Orders.md#po-line-details) when the order was created.
 
 
 
