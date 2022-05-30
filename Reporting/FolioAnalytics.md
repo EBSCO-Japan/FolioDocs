@@ -19,7 +19,7 @@ GitHubにあるリポジトリの[overarching README file](https://github.com/fo
 * クエリを実行できるソフトウェアの例。
 * クエリがどのようにリポジトリで構成されているか
 
-次の最初のセクションは、FOLIO Analyticsのリポジトリにあるレポートクエリを利用して、FOLIOのデータからレポートを作成する方法について説明しています。他のセクションでは、 [導出テーブルの管理](../library-data-platform/#setting-up-derived-tables) と [アドホッククエリのための導出テーブルの利用](#ldp-specific-query-guidance)が説明されています。
+次の最初のセクションは、FOLIO Analyticsのリポジトリにあるレポートクエリを利用して、FOLIOのデータからレポートを作成する方法について説明しています。他のセクションでは、 [導出テーブルの管理](./LibraryDataPlatform.md#setting-up-derived-tables) と [アドホッククエリのための導出テーブルの利用](#ldp-specific-query-guidance)が説明されています。
 
 ## FOLIO Analyticsのリポジトリからクエリを利用する
 
@@ -119,7 +119,7 @@ For more advanced query writing techniques, refer to the documentation on [ad ho
 
 * Check to see if the error message indicates that a derived table is missing. These derived tables are stored in a schema called **folio_reporting**, so that schema name followed by a table name might appear in the error message. If a derived table is missing, contact your LDP administrator.
 * If you edited the query, check to make sure you don’t have a comma appearing at the end of a list, like the list of the fields that occurs after the `SELECT` keyword.
-* If you can’t determine what is causing the error, consult with your local LDP administrator or either your local or the larger [FOLIO Reporting community](../support).
+* If you can’t determine what is causing the error, consult with your local LDP administrator or either your local or the larger [FOLIO Reporting community]().
 
 ## Ad hoc querying using LDP tables
 
@@ -132,7 +132,7 @@ To develop ad hoc queries, you will need to write query scripts using Structured
 
 |Training Resource|Description|
 |---|---|
-|Stanford courses: <ul><li>[Relational Algebra](https://online.stanford.edu/lagunita-learning-platform)</li><li>[Introduction to SQL](https://online.stanford.edu/lagunita-learning-platform)</li></ul>|These courses include an introduction to the algebraic query language that provides the formal foundations of SQL (Structured Query Language), as well as a basic introduction to SQL.|
+|Stanford courses: <ul><li>[Relational Algebra]()</li><li>[Introduction to SQL]()</li></ul>|These courses include an introduction to the algebraic query language that provides the formal foundations of SQL (Structured Query Language), as well as a basic introduction to SQL.|
 |[The Data School: Learn Introductory SQL Concepts](https://dataschool.com/learn-sql/introduction/)|An interactive tutorial with an approachable style. The tutorial has built-in SQL evaluation, so you don’t need to set up a separate database tool to try the exercises.|
 |[Select Star SQL](https://selectstarsql.com/)|An interactive book that teaches SQL concepts using real-world datasets and problems. The book has built-in SQL evaluation, so you don’t need to set up a separate database tool to try the exercises.|
 |[SQL Murder Mystery](https://github.com/NUKnightLab/sql-mysteries)|The SQL Murder Mystery is designed to be both a self-directed lesson to learn SQL concepts and commands and a fun game for experienced SQL users to solve an intriguing crime. They also have a walkthrough for SQL beginners.|

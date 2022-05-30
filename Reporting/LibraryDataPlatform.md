@@ -33,7 +33,7 @@ LDPの詳細な設定方法については、LDPリポジトリにある下記�
 
 ## 導出表の設定
 
-コミュニティが開発した[レポートクエリ](../ffolio-analytics/#using-queries-from-the-folio-analytics-repository)や[アドホッククエリ](../ffolio-analytics/#ad-hoc-querying-using-ldp-tables) をレポート利用者に十分に利用してもらうために、[派生テーブル](https://github.com/folio-org/folio-analytics/tree/release-1.0/sql/derived_tables)の夜間更新設定が強く推奨されます。なお、LDPデータベースでは*views*や*materialized view*の使用はサポートされておらず、LDPソフトウェアがデータ更新を行えなくなる可能性があります。
+コミュニティが開発した[レポートクエリ](./FolioAnalytics.md#using-queries-from-the-folio-analytics-repository)や[アドホッククエリ](../ffolio-analytics/#ad-hoc-querying-using-ldp-tables) をレポート利用者に十分に利用してもらうために、[派生テーブル](https://github.com/folio-org/folio-analytics/tree/release-1.0/sql/derived_tables)の夜間更新設定が強く推奨されます。なお、LDPデータベースでは*views*や*materialized view*の使用はサポートされておらず、LDPソフトウェアがデータ更新を行えなくなる可能性があります。
 
 [FOLIO Reporting Derived Tables (Guide)](https://github.com/folio-org/folio-analytics/blob/release-1.0/sql/derived_tables/README.md)の設定方法は、Githubに記載されています。
 
