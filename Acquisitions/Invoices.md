@@ -1,10 +1,8 @@
----
-title: "Invoices"
-linkTitle: "Invoices"
-date: 2021-08-02
-weight: 20
-tags: ["parenttopic"]
----
+| ソース | 取得日 |
+| ---- | ---- |
+| [Invoice](https://github.com/folio-org/docs/tree/master/content/en/docs/Acquisitions/Invoice) | 2022-03-24 |
+
+# 請求
 
 「請求書」アプリは、図書館が注文した資料の支払いを管理するためのアプリです。また、必要に応じて既存の請求書を検索し、編集することができます。
 
