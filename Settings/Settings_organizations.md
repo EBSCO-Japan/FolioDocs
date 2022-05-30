@@ -17,7 +17,7 @@ In order to interact with Organizations settings, a user needs to be assigned th
 
 *   **Settings (Organizations): Can view and edit settings.** This permission allows the user to view, create, edit, and delete all organizations settings.
 
-Note: This is the only permission available for [Organizations settings]("/organizations.md#permissions"). With some other Organizations permissions, the user is able to view the settings, but they are unable to create, edit, or delete the settings. You can assign permissions to users in the Users app.
+Note: This is the only permission available for [Organizations settings](./Settings_organizations.md#permissions). With some other Organizations permissions, the user is able to view the settings, but they are unable to create, edit, or delete the settings. You can assign permissions to users in the Users app.
 
 
 ## Settings > Organizations > Categories
