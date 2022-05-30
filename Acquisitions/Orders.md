@@ -361,7 +361,7 @@ This section only appears if you select Physical resource or P/E mix under [Orde
 *   **Material supplier.** The supplier of the item. The field defaults to the name of the vendor associated with the vendor code selected for the order. For more information, see [Purchase order](#purchase-order). To change the supplier, click **Organization look-up** to select an organization. In the **Select Organization** dialog, find the organization using the search box and/or filters. Click the organization to select it. The organization is added to the Material supplier field.
 *   **Receipt due.** The date that receipt of the material is due, or the date by which the material should be received.
 *   **Expected receipt date.** The date the material is expected to be received. This date could fall before or after the Receipt due date.
-*   **Create inventory.** Select the types of records you want to create in the Inventory app once the order is opened: Instance, holdings, items; Instance; Instance, holdings; None.  For information on configuring the default setting for this field, see [Settings > Orders > Inventory interactions]("/settings_orders.md#settings--orders--inventory-interactions").
+*   **Create inventory.** Select the types of records you want to create in the Inventory app once the order is opened: Instance, holdings, items; Instance; Instance, holdings; None.  For information on configuring the default setting for this field, see [Settings > Orders > Inventory interactions](../Settings/Settings_orders.md#settings--orders--inventory-interactions").
 *   **Material type.** The type of material.
 *   **Volume.** A number to identify the specific volume being ordered within a series, set or collection.
 
@@ -710,7 +710,7 @@ To search for order lines based on their receipt due date, follow these steps:
 
 2. In the **PO Line details** pane, click **Actions > Receive.** The order line opens in the Receiving app.
 
-3. Follow the steps as outlined in the [Receiving app documentation]("/receiving.md").
+3. Follow the steps as outlined in the [Receiving app documentation]("/Receiving.md").
 
 
 ## 発注明細の削除

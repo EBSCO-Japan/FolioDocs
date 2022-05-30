@@ -360,7 +360,7 @@ Note: To add an expected piece to an order, the **Manually add pieces for receiv
 *   **Select location.** This field is populated with the location selected in Orders. You can change the location by clicking [Assign a different location](#assign-a-different-location). 
 *   **Piece format.** This field is populated with the format selected in Orders. It can not be modified. 
 *   **Comment.** Enter any comments about the piece.
-*   **Create item.** Selecting the **Create item** checkbox connects the new piece to an instance in Inventory. This option is not available for electronic resources. Note: In order to create an item, an [instance status]("/settings_orders.md#settings--orders--instance-status"), [instance type]("/settings_orders.md#settings--orders--instance-type"), and [loan type]("/settings_orders.md#settings--orders--loan-type") must be selected in Settings.
+*   **Create item.** Selecting the **Create item** checkbox connects the new piece to an instance in Inventory. This option is not available for electronic resources. Note: In order to create an item, an [instance status]("/settings_orders.md#settings--orders--instance-status"), [instance type](../Settings/Settings_orders.md#settings--orders--instance-type), and [loan type]("../Settings/Settings_orders.md#settings--orders--loan-type) must be selected in Settings.
 *   **Supplement.** Selecting the **Supplement** checkbox indicates that the piece is a supplementary material such as a CD or a map. 
 
 

@@ -402,7 +402,7 @@ Note: Adding an account is optional, but if you click **Add**, you must fill in 
 
 11. Optional: Enter any **Notes** about the account in the box.
 
-12. Optional: Select any **Acquisition units** from the drop-down list. For more information on acquisition units, see [Settings > Acquisition]("/settings_acquisition_units.md") units.
+12. Optional: Select any **Acquisition units** from the drop-down list. For more information on acquisition units, see [Settings > Acquisition](../Settings/Settings_acquisition_units.md) units.
 
 13. Repeat steps 1-13 as needed. Accounts are saved once you save the vendor.
 

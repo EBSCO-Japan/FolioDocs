@@ -6,9 +6,9 @@ weight: 10
 tags: ["parenttopic"]
 ---
 
-{{% alert color="info"%}}
-<b>注：</b>  [WOLFcon 2021 presentation](https://www.youtube.com/watch?v=SM1vq0zvxsY) で図書館データプラットフォームの概要が説明されています。
-{{% /alert %}}
+
+**注：**  [WOLFcon 2021 presentation](https://www.youtube.com/watch?v=SM1vq0zvxsY) で図書館データプラットフォームの概要が説明されています。
+
 
 LDPソフトウェアがFOLIOに接続するためには、OkapiとFOLIOデータベースへの読み取り専用のアクセス権が必要です。LDPは、機関のスタッフによってローカルにホストされ管理されることもあれば、第三者にホスティングサービスを委託して管理されることもあります。[システム要件](https://github.com/library-data-platform/ldp/blob/release-1.1/doc/Admin_Guide.md#software)はLDPのドキュメントに記載されています。
 
