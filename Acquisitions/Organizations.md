@@ -55,7 +55,7 @@ tags: ["parenttopic"]
 *   **組織ステータス（必須）。** 組織のステータスを選択します。「アクティブ」、「非アクティブ」、「保留」のいずれかを選択します。ここで選択したステータスは、「発注」アプリと「請求書」アプリで評価されます。組織がアクティブなステータスを持つベンダーである場合にのみ、発注はオープンにすることができ、請求書は支払うことができます。組織のレコードが下書きであることを示すために、「保留」のステータスを使用することができます。
 *   **デフォルト言語。** 組織のデフォルト言語を選択します。
 *   **ベンダー。** ベンダー組織を作成している場合は**ベンダー** チェックボックスをチェックします。詳細は [ベンダーを作成](#creating-a-vendor) に記載があります。
-*   **調達ユニット。** 組織レコードに適用する調達ユニットを選択します（使用する場合）。詳細は[Settings > Acquisition units]({{< ref "/settings_acquisition_units.md" >}}) に記載があります。
+*   **調達ユニット。** 組織レコードに適用する調達ユニットを選択します（使用する場合）。詳細は[Settings > Acquisition units]("/settings_acquisition_units.md") に記載があります。
 *   **説明。** 組織についての説明。
 *   **別名。** 組織が使用する代替名（略称や旧名など）。
 
@@ -267,7 +267,7 @@ For more information, see [Interface](#interface).
 
 
 
-*   **支払方法。**  請求書のベンダーに対するデフォルトの支払い方法として表示させたい支払い方法。詳しくは [請求書 > Extended information]({{< ref "/invoices.md#extended-information" >}}) を参照。
+*   **支払方法。**  請求書のベンダーに対するデフォルトの支払い方法として表示させたい支払い方法。詳しくは [請求書 > Extended information]("/invoices.md#extended-information") を参照。
 *   **ベンダー通貨。** ベンダーが受け入れる通貨。
 *   **アクティベーション間隔（予定）。** ベンダーの標準的なアクティベーション間隔を日数で指定します。注：ここで入力した間隔は、そのベンダーに関連する発注の「電子リソースの詳細」セクションにある「アクティベーション期限日」フィールドで使用されます。例えば、間隔を365に設定した場合、「アクティベーション期限日」フィールドには、発注明細を作成した日から1年後の日付が入力されます。
 *   **請求書発行間隔（予定）。** ベンダーの標準的な請求書発行間隔を日数で指定します。現在、この情報は請求書に表示されません。
@@ -402,7 +402,7 @@ Note: Adding an account is optional, but if you click **Add**, you must fill in 
 
 11. Optional: Enter any **Notes** about the account in the box.
 
-12. Optional: Select any **Acquisition units** from the drop-down list. For more information on acquisition units, see [Settings > Acquisition]({{< ref "/settings_acquisition_units.md" >}}) units.
+12. Optional: Select any **Acquisition units** from the drop-down list. For more information on acquisition units, see [Settings > Acquisition]("/settings_acquisition_units.md") units.
 
 13. Repeat steps 1-13 as needed. Accounts are saved once you save the vendor.
 
