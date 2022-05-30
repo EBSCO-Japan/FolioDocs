@@ -1,6 +1,6 @@
 | ソース | 取得日 |
 | ---- | ---- |
-| [Invoice](https://github.com/folio-org/docs/tree/master/content/en/docs/Acquisitions/Invoice) | 2022-03-24 |
+| [Invoice](https://github.com/folio-org/docs/tree/master/content/en/docs/Acquisitions/Invoices) | 2022-03-24 |
 
 # 請求
 
