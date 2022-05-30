@@ -1,3 +1,7 @@
+| ソース | 取得日 |
+| ---- | ---- |
+| https://github.com/folio-org/docs/tree/master/content/en/docs/Acquisitions/Finance | 2022-03-11 |
+
 # 財務（Finance）
 
 「財務」アプリでは、ファンドを構成したり、お金を管理したりできます。
