@@ -1,9 +1,7 @@
 # FolioDocs
 Folio ERM Documentation
 
-[![pages-build-deployment](https://github.com/EBSCO-Japan/FolioDocs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/EBSCO-Japan/FolioDocs/actions/workflows/pages/pages-build-deployment)
-
-[![Links (Fail Fast)](https://github.com/EBSCO-Japan/FolioDocs/actions/workflows/links-fail-fast.yml/badge.svg)](https://github.com/EBSCO-Japan/FolioDocs/actions/workflows/links-fail-fast.yml)
+[![pages-build-deployment](https://github.com/EBSCO-Japan/FolioDocs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/EBSCO-Japan/FolioDocs/actions/workflows/pages/pages-build-deployment) [![Links (Fail Fast)](https://github.com/EBSCO-Japan/FolioDocs/actions/workflows/links-fail-fast.yml/badge.svg)](https://github.com/EBSCO-Japan/FolioDocs/actions/workflows/links-fail-fast.yml)
 
 # ご案内
 ## 翻訳は随時追加しています。
