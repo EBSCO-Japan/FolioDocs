@@ -179,7 +179,7 @@ FOLIOでは、1回限りの発注と継続的な発注のいずれかを作成�
 
 2. In the **Purchase order** pane, select **Actions > Receive.** The order line(s) open in the Receiving app.
 
-3. Follow the steps as outlined in [Receiving > Receiving an order]({{< ref "/receiving.md#receiving-an-order" >}}).
+3. Follow the steps as outlined in [Receiving > Receiving an order](/Acquisitions/Receiving.md#receiving-an-order").
 
 ## 発注の削除
 Note: When you delete an order, received items remain in the system, but the receiving history is removed.
