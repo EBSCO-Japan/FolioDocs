@@ -8,7 +8,7 @@
 * ERM
 * [レポーティング](./Reporting/index.md)
 * 設定
-	* [調達ユニット](./Settings/Settings_acquisition_units.md)
+	* [収集ユニット](./Settings/Settings_acquisition_units.md)
 	* [財務（Finance）](./Settings/Settings_finance.md)
 	* [発注（Orders）](./Settings/Settings_orders.md)
 	* [請求（Invoice）](./Settings/Settings_invoices.md)
