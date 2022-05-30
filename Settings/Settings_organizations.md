@@ -24,7 +24,7 @@ Note: This is the only permission available for [Organizations settings](./Setti
 
 Categories are a way to classify the contact people and contact information you add to an organization. Categories are defined by your library and can be used to group contact information and contact people to make them easier to find and identify. You need to first add the categories in the Settings app in order to assign them to organization contacts.
 
-For more information on adding contact information and contact people to organizations, see [Contact information]("/organizations.md#contact-information") and [Contact people]("/organizations.md#contact-people").
+For more information on adding contact information and contact people to organizations, see [Contact information](../Acquisitions/Organizations.md#contact-information") and [Contact people](../Acquisitions/Organizations.md#contact-people").
 
 
 ### Creating a new category
