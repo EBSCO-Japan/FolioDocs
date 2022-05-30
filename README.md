@@ -13,6 +13,3 @@ Folio ERM Documentation
 * [FOLIO Wiki](https://wiki.folio.org/)
 * [FOLIO Documentation](https://docs.folio.org/)
 
-
-<i class="fa-solid fa-user"></i>
-
