@@ -1,12 +1,3 @@
-
----
-title: "Finance"
-linkTitle: "Finance"
-date: 2021-08-02
-weight: 10
-tags: ["parenttopic"]
----
-
 # 財務（Finance）
 
 「財務」アプリでは、ファンドを構成したり、お金を管理したりできます。
