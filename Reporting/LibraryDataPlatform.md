@@ -1,11 +1,6 @@
----
-title: "Library Data Platform"
-linkTitle: "Library Data Platform"
-date: 2021-10-26
-weight: 10
-tags: ["parenttopic"]
----
-
+| ソース | 取得日 |
+| ---- | ---- |
+| [Library Data Platform](https://github.com/folio-org/docs/tree/master/content/en/docs/Reporting/Library%20Data%20Platform) | 2022-04-11 |
 
 **注：**  [WOLFcon 2021 presentation](https://www.youtube.com/watch?v=SM1vq0zvxsY) で図書館データプラットフォームの概要が説明されています。
 

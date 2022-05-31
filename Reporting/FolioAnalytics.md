@@ -1,10 +1,6 @@
----
-title: "FOLIO Analytics"
-linkTitle: "FOLIO Analytics"
-date: 2021-06-24
-weight: 30
-tags: ["parenttopic"]
----
+| ソース | 取得日 |
+| ---- | ---- |
+| [FOLIO Analytics](https://github.com/folio-org/docs/tree/master/content/en/docs/Reporting/FOLIO%20Analytics) | 2022-04-11 |
 
 ## FOLIO Analyticsのリポジトリとは
 

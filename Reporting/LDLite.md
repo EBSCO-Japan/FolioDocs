@@ -1,10 +1,6 @@
----
-title: "LDLite"
-linkTitle: "LDLite"
-date: 2021-06-24
-weight: 50
-tags: ["parenttopic"]
----
+| ソース | 取得日 |
+| ---- | ---- |
+| [Library Data Platform](https://github.com/folio-org/docs/tree/lotus/content/en/docs/Reporting/LDLite) | 2022-04-14 |
 
 ## LDLite
 
