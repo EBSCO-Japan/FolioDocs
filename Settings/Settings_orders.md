@@ -2,7 +2,7 @@
 | ---- | ---- |
 | [Settings](https://github.com/folio-org/docs/tree/master/content/en/docs/Settings) | 2022-03-28 |
 
-The Orders section of the Settings app is where you establish whether you want to require approval to open orders, your closing order reasons, how orders interact with the Inventory app, order templates, order lines limits, and PO number settings.
+「設定」アプリの「発注」セクションでは、発注をオープンにする際に承認を必要とするかどうか、発注をクローズする理由、発注とInventoryアプリの連動方法、発注テンプレート、発注明細の行数制限、発注番号設定などを設定できます。
 
 
 ## Permissions
