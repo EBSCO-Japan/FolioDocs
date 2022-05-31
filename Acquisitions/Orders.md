@@ -1,3 +1,6 @@
+| ソース | 取得日 |
+| ---- | ---- |
+| [Orders](https://github.com/folio-org/docs/tree/master/content/en/docs/Acquisitions/Orders) | 2022-03-17 |
 # 発注
 
 発注アプリは、発注を作成・管理するためのアプリです。

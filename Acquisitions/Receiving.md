@@ -1,11 +1,6 @@
-
----
-title: "Receiving"
-linkTitle: "Receiving"
-date: 2021-05-14
-weight: 50
-tags: ["parenttopic"]
----
+| ソース | 取得日 |
+| ---- | ---- |
+| [Receiving](https://github.com/folio-org/docs/tree/master/content/en/docs/Acquisitions/Receiving) | 2022-03-24 |
 
 「受入」アプリを使うと、「発注」アプリで作成した発注明細を図書館が受入たことを示すことができます。
 

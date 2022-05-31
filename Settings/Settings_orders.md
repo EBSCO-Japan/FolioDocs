@@ -1,10 +1,6 @@
----
-title: "Settings > Orders"
-linkTitle: "Orders"
-date: 2021-05-10
-weight: 200
-tags: ["subtopic"]   
----
+| ソース | 取得日 |
+| ---- | ---- |
+| [Settings](https://github.com/folio-org/docs/tree/master/content/en/docs/Settings) | 2022-03-28 |
 
 The Orders section of the Settings app is where you establish whether you want to require approval to open orders, your closing order reasons, how orders interact with the Inventory app, order templates, order lines limits, and PO number settings.
 

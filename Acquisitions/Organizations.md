@@ -1,10 +1,6 @@
----
-title: "Organizations"
-linkTitle: "Organizations"
-date: 2021-05-10
-weight: 40
-tags: ["parenttopic"]
----
+| ソース | 取得日 |
+| ---- | ---- |
+| [Organizations](https://github.com/folio-org/docs/tree/master/content/en/docs/Acquisitions/Organizations) | 2022-03-24 |
 
 「組織」アプリは、図書館が関わる組織を管理するためのアプリです。組織のレコードは、連絡先、ウェブサイト、インターフェース、アカウントなど、組織に関する情報を保存する場所です。作成した組織は、次のアプリでFOLIOの収集・電子リソース管理領域と共有されます：「発注」「請求書」「受入」「契約」「ライセンス」「eUsage」です。
 

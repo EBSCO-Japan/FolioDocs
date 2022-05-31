@@ -1,10 +1,6 @@
----
-title: "Settings > Invoices"
-linkTitle: "Invoices"
-date: 2021-08-02
-weight: 140
-tags: ["subtopic"]   
----
+| ソース | 取得日 |
+| ---- | ---- |
+| [Settings](https://github.com/folio-org/docs/tree/master/content/en/docs/Settings) | 2022-03-28 |
 
 
 設定アプリの請求書セクションは、ワンクリック承認の設定、プリセット調整金の作成、バッチグループの作成、バッチグループの設定、支払伝票番号の入力を行う場所です。

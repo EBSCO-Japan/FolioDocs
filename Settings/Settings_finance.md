@@ -1,3 +1,6 @@
+| ソース | 取得日 |
+| ---- | ---- |
+| [Settings](https://github.com/folio-org/docs/tree/master/content/en/docs/Settings) | 2022-03-28 |
 # 設定 > 財務
 「設定」アプリの「財務」セクションでは、会計年度に使用されるさまざまなファンドタイプを分類するために使用するカテゴリーを設定し、指定します。
 

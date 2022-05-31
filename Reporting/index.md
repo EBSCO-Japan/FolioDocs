@@ -1,9 +1,6 @@
----
-title: "Reporting with the Library Data Platform"
-linkTitle: "Reporting with the Library Data Platform"
-weight: 650
----
-
+| ソース | 取得日 |
+| ---- | ---- |
+| [Reporting](https://github.com/folio-org/docs/tree/master/content/en/docs/Reporting) | 2022-04-11 |
 
 **Note:** This documentation covers [LDP v1.1.11](https://github.com/library-data-platform/ldp/tree/1.1.11) and [FOLIO Analytics v1.0](https://github.com/folio-org/folio-analytics/tree/release-1.0), which were released at approximately the same time as the FOLIO Honeysuckle release.
 

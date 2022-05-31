@@ -1,8 +1,6 @@
----
-title: "Glossary"
-linkTitle: "Glossary"
-weight: 800
----
+| ソース | 取得日 |
+| ---- | ---- |
+| [Glossary](https://github.com/folio-org/docs/tree/master/content/en/docs/Glossary) | 2022-03-31 |
 
 <table>
   <tr>

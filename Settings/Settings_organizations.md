@@ -1,10 +1,6 @@
----
-title: "Settings > Organizations"
-linkTitle: "Organizations"
-date: 2021-05-10
-weight: 210
-tags: ["subtopic"]   
----
+| ソース | 取得日 |
+| ---- | ---- |
+| [Settings](https://github.com/folio-org/docs/tree/master/content/en/docs/Settings) | 2022-03-28 |
 
 The Organizations section of the Settings app is where you establish the categories you want to use to classify the contact people and contact information you add to an organization.
 

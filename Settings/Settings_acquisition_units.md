@@ -1,3 +1,7 @@
+| ソース | 取得日 |
+| ---- | ---- |
+| [Settings](https://github.com/folio-org/docs/tree/master/content/en/docs/Settings) | 2022-03-28 |
+
 # 設定 > 収集ユニット（Acquisition units）
 
 設定アプリの「収集ユニット」では、収集ユニットの設定や、作成したユニットへのユーザーの割り当てを行うことができます。
